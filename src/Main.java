@@ -6,11 +6,11 @@ public class Main {
       int intNumber ,intDonusum ;
       double doubleNumber, doubleDonusum;
         Scanner userInp = new Scanner(System.in);
-        System.out.println("Double'a Dönüştürülecek Tam Sayiyi Giriniz ");
+        System.out.print("Double'a Dönüştürülecek Tam Sayiyi Giriniz ");
 
         intNumber = userInp.nextInt();
 
-        System.out.println("İnteger'a Dönüştürülecek Double Sayiyi Giriniz ");
+        System.out.print("İnteger'a Dönüştürülecek Double(ondalık için virgül kullanın) Sayiyi Giriniz  ");
 
         doubleNumber= userInp.nextDouble();
 
