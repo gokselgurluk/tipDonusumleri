@@ -15,9 +15,9 @@ public class Main {
         doubleNumber= userInp.nextDouble();
 
 
+      System.out.println("Tam Sayıyı Ondalıklı Sayıya Dönüştürme Sonucu: " + (double)intNumber);
+      System.out.println("Ondalıklı Sayıyı Tam Sayıya Sönüştürme Sonucu: " + (int)doubleNumber);
 
-        System.out.println((double)intNumber);
-        System.out.print( (int)doubleNumber);
 
 
 
